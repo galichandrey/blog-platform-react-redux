@@ -1,0 +1,112 @@
+.articlePreview {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 941px;
+  height: 140px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 18px;
+}
+
+.articleFirstRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articleTopLeftSection {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.articleTitleAndLikes {
+  display: flex;
+  gap: 10px;
+}
+
+.articleTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1890ff;
+}
+
+.articleTags {
+  border: 1px solid #000;
+  padding: 2px 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.articleUserInfoSection {
+  display: flex;
+  gap: 5px;
+  padding-right: 0px;
+}
+
+.articleName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.articleDate {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.articleSecondRow {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.articleText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.articleButtons {
+  display: flex;
+  min-width: 165px;
+  gap: 10px;
+}
+
+.articleButtonDelete {
+  width: 78px;
+  height: 31.1px;
+  color: #f5222d;
+  border: 1px solid #f5222d;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.articleButtonEdit {
+  width: 78px;
+  height: 31.1px;
+  color: #52c41a;
+  border: 1px solid #52c41a;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.articleTagWrapper {
+  display: flex;
+  gap: 5px;
+}

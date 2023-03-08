@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  width: 100vw;
+  height: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000;
+  background-color: #fff;
+  // flex-grow: 1;
+  // flex-shrink: 1;
+  // flex-basis: 0%;
+}
+
+.headerRightSide {
+  // color: green;
+  display: flex;
+  gap: 20px;
+  // outline: 3px dotted blue;
+}

@@ -1,0 +1,99 @@
+{
+    "articles": [
+        {
+            "slug": "title-8v5c43",
+            "title": "title",
+            "description": "description",
+            "body": "text",
+            "createdAt": "2023-03-04T11:09:28.219Z",
+            "updatedAt": "2023-03-04T11:09:28.219Z",
+            "tagList": [
+                "tag"
+            ],
+            "favorited": false,
+            "favoritesCount": 0,
+            "author": {
+                "username": "icharxo",
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            }
+        },
+        {
+            "slug": "the-velveteen-rabbit-rfh56k",
+            "title": "The Velveteen Rabbit",
+            "description": "Some measure seasonal shifts by Earth’s position relative to the sun, while others use annual temperature cycles. Here’s the difference between astronomical and meteorological seasons.",
+            "body": "lkl",
+            "createdAt": "2023-03-04T11:06:48.628Z",
+            "updatedAt": "2023-03-04T11:06:48.628Z",
+            "tagList": [
+                "programming"
+            ],
+            "favorited": false,
+            "favoritesCount": 0,
+            "author": {
+                "username": "sonya12",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEyIWiK8-Yz0mpAJaCzBcwRClyrtbUdM04lA&usqp=CAU",
+                "following": false
+            }
+        },
+        {
+            "slug": "title-t6gfok",
+            "title": "title",
+            "description": "des",
+            "body": "text",
+            "createdAt": "2023-03-04T11:00:27.391Z",
+            "updatedAt": "2023-03-04T11:00:27.391Z",
+            "tagList": [
+                ""
+            ],
+            "favorited": false,
+            "favoritesCount": 0,
+            "author": {
+                "username": "icharxo",
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            }
+        },
+        {
+            "slug": "title-bada96",
+            "title": "Title",
+            "description": "Md test",
+            "body": "# Heading 1\n## Heading 2\n### Heading 3\nparagraph\n**bold**text\n*italic*text\n***bold italic*** text\n> Blockquotes\nul: \n- li1\n- li2\n- li3\nol:\n1. li1\n2. li2\n3. li3",
+            "createdAt": "2023-03-04T10:58:29.405Z",
+            "updatedAt": "2023-03-04T10:58:29.405Z",
+            "tagList": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "favorited": false,
+            "favoritesCount": 0,
+            "author": {
+                "username": "icharxo",
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            }
+        },
+        {
+            "slug": "test-6cp6li",
+            "title": "test",
+            "description": "description",
+            "body": "# first article",
+            "createdAt": "2023-03-04T10:47:42.509Z",
+            "updatedAt": "2023-03-04T10:47:42.509Z",
+            "tagList": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "favorited": false,
+            "favoritesCount": 0,
+            "author": {
+                "username": "icharxo",
+                "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+                "following": false
+            }
+        }
+    ],
+    "articlesCount": 843
+}
