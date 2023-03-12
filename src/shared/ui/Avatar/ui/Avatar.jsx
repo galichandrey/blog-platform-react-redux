@@ -11,7 +11,9 @@ const Avatar = ({ image }) => {
       className={classes.articleAvatar}
     />
   );
-  return <div>{imageWorking ? imageWorking : <img src="./avatar.png" />}</div>;
+  return (
+    <div>{imageWorking ? imageWorking : <img src="https://static.productionready.io/images/smiley-cyrus.jpg" />}</div>
+  );
 };
 
 // Avatar.propTypes = {
@@ -21,6 +23,10 @@ const Avatar = ({ image }) => {
 // Avatar.defaultProps = {
 //   // bla: 'test',
 // };
+
+// const mapStateToProps = (state) => ({
+//   state,
+// });
 
 // const mapDispatchToProps = dispatch => ({
 //   // fnBlaBla: () => dispatch(action.name()),

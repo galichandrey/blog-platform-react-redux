@@ -11,8 +11,6 @@ import dateConvert from "../../../shared/lib/index";
 
 import classes from "./Article.module.scss";
 
-// const Article = (state) => {
-// console.log(state);
 const Article = ({ article, slug, dispatchOneArticleFunc }) => {
   let postDate = "";
   useLayoutEffect(() => {
@@ -20,10 +18,8 @@ const Article = ({ article, slug, dispatchOneArticleFunc }) => {
   }, [slug]);
   const { title, description, body, createdAt, tagList, favorited, favoritesCount, author } = article;
   if (createdAt) {
-    // eslint-disable-next-line no-unused-vars
     postDate = dateConvert(createdAt);
   }
-  // console.log("tagList >>> ", tagList);
   let tagListArray = [];
   if (tagList) {
     tagListArray = tagList.map((element, index) => {
@@ -49,7 +45,7 @@ const Article = ({ article, slug, dispatchOneArticleFunc }) => {
               {favorited ? "❤️" : "🤍"} {favoritesCount}
             </div>
           </div>
-          <div className={classes.articleTagWrapper}>Тэги тут</div>
+          {/* <div className={classes.articleTagWrapper}>Тэги тут</div> */}
           <div className={classes.articleTagWrapper}>{tagListArray ? tagListArray : null}</div>
         </div>
         <div className={classes.articleUserInfoSection}>
@@ -59,7 +55,7 @@ const Article = ({ article, slug, dispatchOneArticleFunc }) => {
             <div className={classes.articleDate}>{postDate}</div>
           </div>
           <div className={classes.articleAvatar}>
-            <Avatar image={author?.image ? author.image : "http://localhost:3000/avatar.png"} />
+            <Avatar image={author?.image ? author.image : "./avatar.png"} />
             {/* <img src="http://localhost:3000/avatar.png" /> */}
           </div>
         </div>

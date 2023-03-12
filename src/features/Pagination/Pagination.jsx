@@ -7,7 +7,8 @@ import * as actions from "../../shared/api/actions_all";
 
 import classes from "./Pagination.module.scss";
 
-const PaginationWrapper = ({ dispatchArticlesFunc, articlesCount = 15, offset }) => {
+const PaginationWrapper = ({ dispatchArticlesFunc, articlesCount = 0, offset }) => {
+  // console.log(articlesCount);
   function onChange(page) {
     dispatchArticlesFunc(page - 1);
   }

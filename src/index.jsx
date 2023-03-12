@@ -5,16 +5,25 @@ import { compose, applyMiddleware, combineReducers, legacy_createStore as create
 import thunk from "redux-thunk";
 
 import App from "./app";
-import { fetchArticlesReducer, fetchOneArticleReducer } from "./shared/api/reducers_all";
+import {
+  fetchArticlesReducer,
+  fetchOneArticleReducer,
+  registerNewUserReducer,
+  signInReducer,
+  profileUsernameReducer,
+} from "./shared/api/reducers_all";
 const rootReducer = combineReducers({
   fetchArticlesReducer,
   fetchOneArticleReducer,
+  registerNewUserReducer,
+  signInReducer,
+  profileUsernameReducer,
 });
 
 const store = createStore(
   rootReducer,
-  compose(applyMiddleware(thunk))
-  // compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+  // compose(applyMiddleware(thunk))
+  compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

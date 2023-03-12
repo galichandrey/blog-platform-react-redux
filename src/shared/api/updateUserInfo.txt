@@ -1,0 +1,17 @@
+{
+  "user": {
+    "password": "agagagag",
+    "email": "agagagag@ag.ru",
+    "username": "agagagag",
+    "image": "https://upload.wikimedia.org/wikipedia/ru/d/dd/Spider_Man_PS4_cover.jpg"
+  }
+}
+
+{
+    "user": {
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MGE2ZjQ1NmY4YmVlMWIwMDU1NWRlZSIsInVzZXJuYW1lIjoiYWdhZ2FnYWciLCJleHAiOjE2ODM3Mzk4MjcsImlhdCI6MTY3ODU1NTgyN30.rrHY721t-0Y8nhGNqNXtBKfS3G8HMdtAlQlyP72kos8",
+        "email": "agagagag@ag.ru",
+        "username": "agagagag",
+        "image": "https://upload.wikimedia.org/wikipedia/ru/d/dd/Spider_Man_PS4_cover.jpg"
+    }
+}

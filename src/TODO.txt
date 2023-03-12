@@ -1,0 +1,7 @@
+https://platform.kata.academy/user/courses/2/4/3/2
+Много полезных комментариев.
+
+
+Также можно использовать react-tostify для нотификаций при всяких ошибках или наоборот успешно произошедшем действии пользователя
+
+https://github.com/fkhadra/react-toastify

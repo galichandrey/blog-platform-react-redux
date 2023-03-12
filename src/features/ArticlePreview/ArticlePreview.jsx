@@ -30,7 +30,7 @@ const ArticlePreview = ({ slug, title, description, createdAt, tagList, favorite
         <div className={classes.articleTopLeftSection}>
           <div className={classes.articleTitleAndLikes}>
             <div className={classes.articleTitle}>
-              <Link to={slug}>{title}</Link>
+              <Link to={`/article/${slug}`}>{title}</Link>
             </div>
             <div className={classes.articleLikes}>
               {favorited ? "❤️" : "🤍"} {favoritesCount}

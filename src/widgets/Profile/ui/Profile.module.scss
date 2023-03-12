@@ -1,0 +1,146 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  padding: 45px 30px;
+  gap: 14px;
+  width: 384px;
+  min-height: 498px;
+  background-color: #fff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #262626;
+  filter: drop-shadow(5px 5px 20px #ddd);
+  border-radius: 6px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #262626;
+  padding-bottom: 10px;
+}
+
+input {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  width: 320px;
+  height: 40px;
+  padding-left: 12px;
+}
+
+input.profileButton {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 319px;
+  height: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #1890ff;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #fff0;
+}
+
+input.profileButtonDisabled {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  width: 319px;
+  height: 40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #ddd;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #fff0;
+}
+
+hr {
+  width: 320px;
+  height: 1px;
+  background-color: #e8e8e8;
+  border: none;
+}
+
+.toggle {
+  text-align: center;
+  width: 16px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  margin: auto 0;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.toggle + label {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNC4zLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNiAxNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTYgMTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiNGRkZGRkY7c3Ryb2tlOiMxODkwRkY7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yLDAuNWgxMmMwLjgsMCwxLjUsMC43LDEuNSwxLjV2MTJjMCwwLjgtMC43LDEuNS0xLjUsMS41SDJjLTAuOCwwLTEuNS0wLjctMS41LTEuNVYyQzAuNSwxLjIsMS4yLDAuNSwyLDAuNXoiDQoJLz4NCjwvc3ZnPg0K);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 16px;
+}
+
+.toggle:checked + label {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyNC4zLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNiAxNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTYgMTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiMxODkwRkY7c3Ryb2tlOiMxODkwRkY7fQ0KCS5zdDF7ZmlsbDojRkZGRkZGO3N0cm9rZTojRkZGRkZGO3N0cm9rZS13aWR0aDowLjM7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yLDAuNWgxMmMwLjgsMCwxLjUsMC43LDEuNSwxLjV2MTJjMCwwLjgtMC43LDEuNS0xLjUsMS41SDJjLTAuOCwwLTEuNS0wLjctMS41LTEuNVYyQzAuNSwxLjIsMS4yLDAuNSwyLDAuNXoiDQoJLz4NCjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0zLjksN0wzLjksN2MwLjEsMCwwLjIsMCwwLjIsMC4xYzAuMSwwLDAuMSwwLjEsMC4yLDAuMUwzLjksN3ogTTMuOSw3SDMuMUMyLjksNywyLjgsNy4zLDIuOSw3LjRsMCwwbDMuMiw0LjENCgloMGMwLjIsMC4zLDAuNiwwLjMsMC44LDBsMCwwbDUuNy03LjNjMCwwLDAsMCwwLDBjMC4xLTAuMiwwLTAuNC0wLjItMC40aC0wLjhjLTAuMiwwLTAuMywwLjEtMC40LDAuMmMwLDAsMCwwLDAsMGwtNC43LDYgTTMuOSw3DQoJbDIuNiwzIE02LjUsMTBMNC4zLDcuMkw2LjUsMTB6Ii8+DQo8L3N2Zz4NCg==);
+  background-size: 16px;
+}
+
+.term {
+  padding-left: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+}
+
+.errorMessage {
+  color: tomato;
+}
+
+.haveAccount {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+  color: #1890ff;
+  text-decoration: none;
+}

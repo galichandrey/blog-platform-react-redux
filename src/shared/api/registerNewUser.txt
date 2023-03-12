@@ -1,0 +1,32 @@
+{
+    "user": {
+        "username": "checkcheckcheck12345",
+        "email": "checkcheckcheck12345@checkcheckcheck12345.ru",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MGE2YzcyNmY4YmVlMWIwMDU1NWRlZCIsInVzZXJuYW1lIjoiY2hlY2tjaGVja2NoZWNrMTIzNDUiLCJleHAiOjE2ODM1ODg3MjIsImlhdCI6MTY3ODQwNDcyMn0.vRSJsZ_2uWtCeTR0K31KVfetP5Kjp0BVynuwweI25Xw"
+    }
+}
+
+
+{
+    "user": {
+        "username": "agagagag",
+        "email": "agagagag@ag.ru",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MGE2ZjQ1NmY4YmVlMWIwMDU1NWRlZSIsInVzZXJuYW1lIjoiYWdhZ2FnYWciLCJleHAiOjE2ODM1OTA1MjQsImlhdCI6MTY3ODQwNjUyNH0.KHPj3qH-vW01IVqr5UCv6OGEj5CRG3VYxkC3j7Hudu8"
+    }
+}
+
+{
+    "user": {
+        "username": "agagagag2",
+        "email": "agagagag2@ag.ru",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MGE3MDBiNmY4YmVlMWIwMDU1NWRlZiIsInVzZXJuYW1lIjoiYWdhZ2FnYWcyIiwiZXhwIjoxNjgzNTg5NjQzLCJpYXQiOjE2Nzg0MDU2NDN9.f6grh5rw9vFYJYn64wOVKLsiSnGddkMNoSMbJ4QJGUQ"
+    }
+}
+
+{
+    "user": {
+        "username": "agagagag",
+        "email": "agagagag@ag.ru",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MGE2ZjQ1NmY4YmVlMWIwMDU1NWRlZSIsInVzZXJuYW1lIjoiYWdhZ2FnYWciLCJleHAiOjE2ODM1OTI0MTUsImlhdCI6MTY3ODQwODQxNX0.UnLu_YchfYen1r7sB4lDIhjou_cYD_1_9k0bwaR5ge4"
+    }
+}
